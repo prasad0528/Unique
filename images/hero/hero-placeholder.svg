@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" role="img" aria-label="Photo placeholder">
+  <rect width="1200" height="1500" fill="#EEF4F7"/>
+  <rect x="70" y="70" width="1060" height="1360" fill="#F8F6F1"/>
+  <rect x="160" y="150" width="880" height="560" fill="#DCE8F0" stroke="#17324D" stroke-width="3"/>
+  <line x1="600" y1="150" x2="600" y2="710" stroke="#17324D" stroke-width="2"/>
+  <line x1="160" y1="430" x2="1040" y2="430" stroke="#17324D" stroke-width="2"/>
+  <rect x="250" y="1040" width="700" height="16" fill="#17324D"/>
+  <rect x="290" y="1056" width="14" height="170" fill="#3F617A"/>
+  <rect x="896" y="1056" width="14" height="170" fill="#3F617A"/>
+  <rect x="560" y="900" width="80" height="140" rx="40" fill="#17324D"/>
+  <circle cx="600" cy="860" r="48" fill="none" stroke="#B99A62" stroke-width="3"/>
+  <line x1="430" y1="1280" x2="770" y2="1280" stroke="#B99A62" stroke-width="2"/>
+  <text x="600" y="1330" text-anchor="middle" font-family="Georgia, serif" font-size="42" fill="#17324D">Photo placeholder</text>
+  <text x="600" y="1372" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#607080">Not our work</text>
+</svg>

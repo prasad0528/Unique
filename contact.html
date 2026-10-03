@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Unique Home Edit</title>
+  <meta name="description" content="Send an enquiry to Unique Home Edit about a celebration at home in Hitech City, Hyderabad.">
+  <meta name="theme-color" content="#541C45">
+  <link rel="icon" href="images/brand/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="index.html" class="site-logo-link" aria-label="Unique Home Edit home">
+        <img src="images/brand/uhe-logo-transparent.png" alt="Unique Home Edit" class="site-logo">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+        <span class="sr-only">Open menu</span>
+        <span class="menu-bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-menu" class="site-nav" aria-label="Primary">
+        <div class="menu-head">
+          <span class="menu-label">Menu</span>
+          <button class="menu-close" type="button">Close</button>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Our Work</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="btn btn-nav" aria-current="page">Contact Us →</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="page-hero">
+      <div class="wrap">
+        <p class="eyebrow">Contact</p>
+        <h1>Plan a celebration</h1>
+        <p class="lede">Tell us the occasion, the date, and the room. We will use those details to talk through how the space can be styled.</p>
+      </div>
+    </section>
+
+    <section class="section section-white tight">
+      <div class="wrap contact-layout">
+        <div>
+          <p class="eyebrow">Your details</p>
+          <h2>Where to reach us</h2>
+          <p class="contact-note">Call or email us about the occasion, the date, and the room. We style celebrations in Hitech City, Hyderabad.</p>
+          <ul class="contact-placeholders">
+            <li class="contact-phone"><a href="tel:+919676572260">+91 96765 72260</a></li>
+            <li class="contact-email"><a href="mailto:uniquehomeedit@gmail.com">uniquehomeedit@gmail.com</a></li>
+            <li class="contact-place">Hitech City, Hyderabad</li>
+          </ul>
+        </div>
+
+        <form id="enquiry-form" class="form-card" novalidate>
+          <p class="form-help">This form is a preview. It checks that the main fields are filled in. It does not send a message yet.</p>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" aria-describedby="name-error">
+              <p id="name-error" class="field-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="phone">Phone</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" aria-describedby="phone-error">
+              <p id="phone-error" class="field-error" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-error">
+              <p id="email-error" class="field-error" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="style-space">What would you like us to style?</label>
+              <select id="style-space" name="style-space" aria-describedby="style-space-error">
+                <option value="">Choose a space</option>
+                <option>Hall / Living Room Styling</option>
+                <option>Bedroom Styling</option>
+                <option>Dining Area Styling</option>
+                <option>Complete Home Styling</option>
+                <option>Balcony / Terrace Styling</option>
+                <option>Entrance / Foyer Styling</option>
+                <option>Kids Room Styling</option>
+                <option>Pooja Room Styling</option>
+                <option>Home Office Styling</option>
+                <option>Multiple Spaces</option>
+                <option>Other / Custom Styling</option>
+              </select>
+              <p id="style-space-error" class="field-error" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="occasion">What is the occasion?</label>
+            <select id="occasion" name="occasion" aria-describedby="occasion-error">
+              <option value="">Choose an occasion</option>
+              <option>Birthday</option>
+              <option>Anniversary</option>
+              <option>Baby Shower</option>
+              <option>Housewarming</option>
+              <option>Festival</option>
+              <option>Surprise Celebration</option>
+              <option>Romantic Setup</option>
+              <option>Family Celebration</option>
+              <option>Other</option>
+            </select>
+            <p id="occasion-error" class="field-error" aria-live="polite"></p>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="date">Date</label>
+              <input id="date" name="date" type="date">
+              <p class="field-error"></p>
+            </div>
+            <div class="field">
+              <label for="space">Room or space</label>
+              <input id="space" name="space" type="text" placeholder="For example, living room">
+              <p class="field-error"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Anything we should know about the day"></textarea>
+          </div>
+
+          <button class="btn" type="submit">Send enquiry</button>
+          <p id="form-note" class="form-note" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <p class="footer-name">Unique Home Edit</p>
+        <p>You bring the occasion. We transform the space.</p>
+      </div>
+      <div>
+        <p class="footer-heading">Visit</p>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="work.html">Our Work</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Enquire</p>
+        <ul class="contact-placeholders">
+          <li class="contact-phone"><a href="tel:+919676572260">+91 96765 72260</a></li>
+          <li class="contact-email"><a href="mailto:uniquehomeedit@gmail.com">uniquehomeedit@gmail.com</a></li>
+          <li class="contact-place">Hitech City, Hyderabad</li>
+        </ul>
+        <a class="btn" href="contact.html">Send an enquiry</a>
+      </div>
+    </div>
+    <div class="wrap footer-base">© 2026 Unique Home Edit</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

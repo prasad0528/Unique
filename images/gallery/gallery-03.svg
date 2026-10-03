@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-label="Photo placeholder">
+  <rect width="1600" height="1100" fill="#EEF4F7"/>
+  <rect x="36" y="36" width="1528" height="1028" fill="#F8F6F1"/>
+  <rect x="162" y="154" width="1298" height="462" fill="#DCE8F0" stroke="#17324D" stroke-width="3"/>
+  <line x1="811" y1="154" x2="811" y2="616" stroke="#3F617A" stroke-width="2"/>
+  <line x1="162" y1="385" x2="1460" y2="385" stroke="#3F617A" stroke-width="2"/>
+  <line x1="512" y1="770" x2="1088" y2="770" stroke="#B99A62" stroke-width="2"/>
+  <text x="800" y="924" text-anchor="middle" font-family="Georgia, serif" font-size="40" fill="#17324D">Photo placeholder</text>
+  <text x="800" y="958" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#607080">Not our work</text>
+</svg>
