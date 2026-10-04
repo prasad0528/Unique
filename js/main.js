@@ -82,7 +82,7 @@
       { id: "phone", message: "Please enter a phone number." },
       { id: "email", message: "Please enter an email address.", email: true },
       { id: "style-space", message: "Please choose a space to style." },
-      { id: "occasion", message: "Please choose an occasion." }
+      { id: "occasion", message: "Please choose a season or celebration." }
     ];
 
     var firstInvalid = null;

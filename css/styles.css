@@ -212,9 +212,11 @@ h2,
   text-decoration: none;
 }
 
-.site-logo {
+img.site-logo {
   width: 75px;
   height: 58px;
+  max-width: none;
+  max-height: none;
   display: block;
   object-fit: contain;
   object-position: center;
@@ -222,6 +224,7 @@ h2,
   border: 0;
   padding: 0;
   margin: 0;
+  flex-shrink: 0;
 }
 
 .menu-toggle,
@@ -1150,7 +1153,7 @@ h2,
     padding-block: 0;
   }
 
-  .site-logo {
+  img.site-logo {
     width: 110px;
     height: 72px;
   }
